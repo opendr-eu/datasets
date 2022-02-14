@@ -6,11 +6,12 @@ This repository contains datasets collected and annotated within the scopes of t
 
 The OpenDR toolkit is an _optional_ requirement of this package, only needed if you plan to use these datasets with an OpenDR tool. For full integration, the [OpenDR](https://github.com/opendr-eu/opendr) toolkit must be installed first.
 
+```
+pip install git+https://github.com/opendr-eu/datasets.git
+```
+
 If you don't plan on using other OpenDR tools, the datasets can be downloaded from their corresponding README pages, and there is no need to install this package. 
 
-```
-pip install -e .
-```
 
 ## List of datasets
 
