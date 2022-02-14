@@ -25,6 +25,10 @@ dataset = AGIHumans(path)
 # and unzipped in the specified directory
 ```
 
+## Examples
+
+Example usage in notebook format can be found [here](agi_humans_dataset.ipynb).
+
 ## References
 Citation TBA.
 

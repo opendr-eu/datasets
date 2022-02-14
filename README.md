@@ -16,4 +16,4 @@ pip install -e .
 
 ### Object Detection 2D
 
-- [AGI Humans in Fields dataset](samples/agi_humans/README.md)
+- [AGI Humans in Fields dataset](examples/agi_humans)
