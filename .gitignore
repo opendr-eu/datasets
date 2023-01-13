@@ -1,1 +1,4 @@
 *.pyc
+*.xml
+/build/
+/src/opendr_datasets.egg-info/

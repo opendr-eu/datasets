@@ -22,6 +22,7 @@ class AGIHumans(ConcatDataset):
                                           annotations_dir='no_human_anot')
         super().__init__([human_subset, no_human_subset])
         self.dataset_type = 'agi_humans_v1'
+        self.class_names = ['person']
 
     @staticmethod
     def download(path, verbose=True):
