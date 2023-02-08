@@ -18,3 +18,7 @@ If you don't plan on using other OpenDR tools, the datasets can be downloaded fr
 ### Object Detection 2D
 
 - [AGI Humans in Fields dataset](examples/agi_humans)
+
+### Synthetic Datasets
+- [Multi-view Facial Image Dataset Based on LFW](https://zenodo.org/record/5809158#.Y-JcIHZByUk)
+- [Multi-view Facial Image Dataset Based on CelebA](https://zenodo.org/record/5809273#.Y-JdZXZByUk)
