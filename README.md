@@ -30,9 +30,12 @@ A dataset of facial images from several viewing angles was created by Aristotle 
 
 - [AUTH-OpenDR Mixed Image Annotated Dataset for Human-centric Perception Tasks](https://zenodo.org/record/5801594#.Y-TgqhxBxhE)
 
-The dataset was generated through a mixed (real and synthetic) image data generation method which utilizes real background images and DL-generated human models. It contains 50000 real images depicting urban scenes, populated by synthetic human models in various positions and poses and   is suitable for training/evaluating (a) pose estimation, (b) person detection, (c) identity recognition methods. Annotations for 2D bounding boxes of the depicted humans, their  IDs and 2D keypoints etc are provided. The 133 3D human models, required by the method, were generated using the Pixel-aligned Implicit Function (PIFu) and full-body images of people from the Clothing Co-Parsing (CCP) dataset. As background images, a subset of the Cityscapes dataset was used. The Cityscapes license prohibits the distribution of any modified versions of itself. Thus, we provide code  that can re-generate the exact same dataset, given that the Cityscapes dataset is downloaded by the website of its authors.
+Realistic 3D Human models Generated from Real-World Images
 
-Code and instructions for re-generating the dataset are provided [here](https://github.com/opendr-eu/opendr/tree/master/projects/python/simulation/human_dataset_generation).
+This dataset contains 133 3D human models generated using the Pixel-aligned Implicit Function (PIFu) and full-body images of people from the Clothing Co-Parsing (CCP) dataset. The 3D human models are provided in .OBJ format.
+
+Download Instructions:
+`wget ftp://opendrdata.csd.auth.gr/simulation/human_data_generation_framework/human_models.tar.gz`
 
 - [AUTH-OpenDR SMPL+D Human Bodies Dataset](https://zenodo.org/record/5801562#.Y-TgrBxBxhE)
 
