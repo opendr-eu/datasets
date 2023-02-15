@@ -34,8 +34,7 @@ The dataset was generated through a mixed (real and synthetic) image data genera
 
 Code and instructions for re-generating the dataset are provided [here](https://github.com/opendr-eu/opendr/tree/master/projects/python/simulation/human_dataset_generation).
 
-- [AUTH-OpenDR Static Human Bodies Dataset](https://zenodo.org/record/5801594#.Y-TgqhxBxhE)
-Realistic 3D Human models Generated from Real-World Images
+- [AUTH-OpenDR 3D Human models Generated from Real-World Images](https://zenodo.org/record/5801594#.Y-TgqhxBxhE)
 
 This dataset contains 133 3D human models generated using the Pixel-aligned Implicit Function (PIFu) and full-body images of people from the Clothing Co-Parsing (CCP) dataset. The 3D human models are provided in .OBJ format.
 
