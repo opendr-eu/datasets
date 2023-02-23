@@ -19,7 +19,7 @@ If you don't plan on using other OpenDR tools, the datasets can be downloaded fr
 
 - [AGI Humans in Fields dataset](examples/agi_humans)
 
-- AU Engine Assembly Dataset
+- TAU Engine Assembly Dataset
 
 Download Instructions: `wget ftp://opendrdata.csd.auth.gr/datasets/EngineAssembly/EngineAssembly.zip`
 
