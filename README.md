@@ -15,6 +15,12 @@ If you don't plan on using other OpenDR tools, the datasets can be downloaded fr
 
 ## List of datasets
 
+### Panoptic Segmentation
+
+- [KITTI Panoptic Segmentation Dataset] (http://panoptic.cs.uni-freiburg.de/)
+
+KITTI panoptic segmentation dataset for urban scene understanding provides panoptic annotations for a subset of images from the KITTI Vision Benchmark Suite. The annotations for the images that we provide do not intersect with the official KITTI semantic/instance segmentation test set, therefore in addition to panoptic segmentation, they can also be used as supplementary training data for benchmarking semantic or instance segmentation tasks individually. The dataset consists of a total of 1055 images, out of which 855 are used for the training set and 200 are used for the validation set. The images are a resolution of 1280×384 pixels. We provide annotations for 11 ‘stuff’ classes and 8 ‘thing’ classes adhering to the Cityscapes ‘stuff’ and ‘thing’ class distribution.
+
 ### Object Detection 2D
 
 - [AGI Humans in Fields dataset](examples/agi_humans)
