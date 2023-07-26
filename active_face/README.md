@@ -21,11 +21,11 @@ Each subfolder is named "x_y", where "x" denotes the id of the environment and "
 ## Naming Conventions
 
 Each image is named “e_h_l_d_r.jpg”, where:
-- e denotes the id of the environment. 
-- h denotes the id of the person.
-- l denotes the id of the lighting condition.
-- d denotes the camera distance at which the image was captured.
-- r denotes the camera angle at which the image was captured.
+- **e** denotes the id of the environment. 
+- **h** denotes the id of the person.
+- **l** denotes the id of the lighting condition.
+- **d** denotes the camera distance at which the image was captured.
+- **r** denotes the camera angle at which the image was captured.
 
 
 
