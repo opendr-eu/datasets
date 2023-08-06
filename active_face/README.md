@@ -10,7 +10,7 @@ As a result, some combinations of camera distances and angles do not exist in th
 
 ## How to download
 
-Not yet available. Links will be provided soon.
+You can download the dataset [here](https://cicloud.csd.auth.gr/owncloud/s/OG6Bkgf9Hn5kpT9).
 
 ## Folder Configuration
 
