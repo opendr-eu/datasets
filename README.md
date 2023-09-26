@@ -58,4 +58,11 @@ The dataset is available through the official GitHub repository of the OpenDR to
 
 This dataset introduces a realistic synthetic facial image generation pipeline, using a modified version  of Unity's  Perception package installed on a URP project, that has been designed to support active face recognition. The developed pipeline enables generating images under a wide range of different view angles and distances, as well as under different illumination conditions and backgrounds.
 
-The dataset will be available soon [here](https://github.com/opendr-eu/datasets/tree/main/active_face)
+The dataset is available as part of the ActiveHuman dataset (see below).
+
+- [ActiveHuman](https://zenodo.org/record/8359766)
+
+ActiveHumans was generated using Unity’s Perception package. It consists of 175428 RGB images and their semantic segmentation counterparts taken at different environments, lighting conditions, camera distances and angles. In total, the dataset contains images for 8 environments, 33 humans, 4 lighting conditions, 7 camera distances (1m-4m) and 36 camera angles (0-360 at 10-degree intervals). Alongside each image, 2D Bounding Box, 3D Bounding Box and Keypoint ground truth annotations are also generated via the use of Labelers and are stored as a JSON-based dataset. These Labelers are scripts that are responsible for capturing ground truth annotations for each captured image or frame. Keypoint annotations follow the COCO format defined by the COCO keypoint annotation template offered in the perception package.
+
+Active Human is available [here](https://zenodo.org/record/8359766).
+
