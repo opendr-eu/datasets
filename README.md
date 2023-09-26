@@ -58,7 +58,7 @@ The dataset is available through the official GitHub repository of the OpenDR to
 
 This dataset introduces a realistic synthetic facial image generation pipeline, using a modified version  of Unity's  Perception package installed on a URP project, that has been designed to support active face recognition. The developed pipeline enables generating images under a wide range of different view angles and distances, as well as under different illumination conditions and backgrounds.
 
-The dataset is available as part of the ActiveHuman dataset (see below).
+The dataset is available [here](https://github.com/opendr-eu/datasets/tree/main/active_face)
 
 - [ActiveHuman](https://zenodo.org/record/8359766)
 
