@@ -19,7 +19,11 @@ If you don't plan on using other OpenDR tools, the datasets can be downloaded fr
 
 - [KITTI Panoptic Segmentation Dataset](http://panoptic.cs.uni-freiburg.de/)
 
-KITTI panoptic segmentation dataset for urban scene understanding provides panoptic annotations for a subset of images from the KITTI Vision Benchmark Suite. The annotations for the images that we provide do not intersect with the official KITTI semantic/instance segmentation test set, therefore in addition to panoptic segmentation, they can also be used as supplementary training data for benchmarking semantic or instance segmentation tasks individually. The dataset consists of a total of 1055 images, out of which 855 are used for the training set and 200 are used for the validation set. The images are a resolution of 1280×384 pixels. We provide annotations for 11 ‘stuff’ classes and 8 ‘thing’ classes adhering to the Cityscapes ‘stuff’ and ‘thing’ class distribution.
+The KITTI panoptic segmentation dataset for urban scene understanding provides panoptic annotations for a subset of images from the KITTI Vision Benchmark Suite. The annotations for the images that we provide do not intersect with the official KITTI semantic/instance segmentation test set, therefore in addition to panoptic segmentation, they can also be used as supplementary training data for benchmarking semantic or instance segmentation tasks individually. The dataset consists of a total of 1055 images, out of which 855 are used for the training set and 200 are used for the validation set. The images are a resolution of 1280×384 pixels. We provide annotations for 11 ‘stuff’ classes and 8 ‘thing’ classes adhering to the Cityscapes ‘stuff’ and ‘thing’ class distribution.
+
+- [NuScenes LiDAR Panoptic Segmentation Dataset](http://lidar-panoptic.cs.uni-freiburg.de/)
+
+The NuScenes LiDAR panoptic segmentation dataset for urban 3D scene understanding provides panoptic annotations for LiDAR point clouds from the NuScenes dataset. Our dataset consists of a total of 850 scans, out of which 700 are used for the training set and 150 are used for the validation set. We provide annotations for 6 'stuff' classes and 10 'thing' classes.
 
 ### Object Detection 2D
 
@@ -65,4 +69,3 @@ The dataset is available [here](https://github.com/opendr-eu/datasets/tree/main/
 ActiveHumans was generated using Unity’s Perception package. It consists of 175428 RGB images and their semantic segmentation counterparts taken at different environments, lighting conditions, camera distances and angles. In total, the dataset contains images for 8 environments, 33 humans, 4 lighting conditions, 7 camera distances (1m-4m) and 36 camera angles (0-360 at 10-degree intervals). Alongside each image, 2D Bounding Box, 3D Bounding Box and Keypoint ground truth annotations are also generated via the use of Labelers and are stored as a JSON-based dataset. These Labelers are scripts that are responsible for capturing ground truth annotations for each captured image or frame. Keypoint annotations follow the COCO format defined by the COCO keypoint annotation template offered in the perception package.
 
 ActiveHuman is available [here](https://zenodo.org/record/8359766).
-
