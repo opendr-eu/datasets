@@ -25,6 +25,13 @@ The KITTI panoptic segmentation dataset for urban scene understanding provides p
 
 The NuScenes LiDAR panoptic segmentation dataset for urban 3D scene understanding provides panoptic annotations for LiDAR point clouds from the NuScenes dataset. Our dataset consists of a total of 850 scans, out of which 700 are used for the training set and 150 are used for the validation set. We provide annotations for 6 'stuff' classes and 10 'thing' classes.
 
+
+### Semantic Segmentation Segmentation
+
+- [Multimodal Agricultural Aerial and Ground Robotics Simulation Dataset](https://zenodo.org/records/10159039)
+
+This dataset was generated using an aerial robot and a ground robot in the Webots simulator with the OpenDR agricultural dataset generator tool. It consists of 13980 RGB images and their semantic segmentation counterparts taken at different lighting conditions and robot positions in an agricultural field. It also includes the annotation data comprised of the class of the object, x, and y of the top left pixel of the object bounding box, and the width and height of the object bounding box. Furthermore, it includes gps and inertial unit sensor data for UAV and gps, inertial and lidar sensor data for UGV.
+
 ### Object Detection 2D
 
 - [AGI Humans in Fields dataset](examples/agi_humans)
