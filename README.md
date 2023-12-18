@@ -76,3 +76,12 @@ The dataset is available [here](https://github.com/opendr-eu/datasets/tree/main/
 ActiveHuman was generated using Unity’s Perception package. It consists of 175428 RGB images and their semantic segmentation counterparts taken at different environments, lighting conditions, camera distances and angles. In total, the dataset contains images for 8 environments, 33 humans, 4 lighting conditions, 7 camera distances (1m-4m) and 36 camera angles (0-360 at 10-degree intervals). Alongside each image, 2D Bounding Box, 3D Bounding Box and Keypoint ground truth annotations are also generated via the use of Labelers and are stored as a JSON-based dataset. These Labelers are scripts that are responsible for capturing ground truth annotations for each captured image or frame. Keypoint annotations follow the COCO format defined by the COCO keypoint annotation template offered in the perception package.
 
 ActiveHuman is available [here](https://zenodo.org/record/8359766).
+
+### Simulation-based Datasets
+
+The following simulation-based competition scenarios allows researchers to easily generate sensory datasets for traning deep-learning robotics systems:
+
+- [Highway driving competition](https://github.com/cyberbotics/highway-driving-competition/): Program a Lincoln MKZ autonomous car to drive as fast as possible on a crowded highway.
+- [Pick and place competition](https://github.com/cyberbotics/pick-and-place-competition): Program a youBot mobile manipulator robot to pick and place a cube as quickly as possible.
+- [Pit escape competition](https://github.com/cyberbotics/pit-escape-competition): Program a BB-8 robot lost in a sand desert to climb out of a pit as quickly as possible.
+
