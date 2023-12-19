@@ -85,3 +85,10 @@ The following simulation-based competition scenarios allows researchers to easil
 - [Pick and place competition](https://github.com/cyberbotics/pick-and-place-competition): Program a youBot mobile manipulator robot to pick and place a cube as quickly as possible.
 - [Pit escape competition](https://github.com/cyberbotics/pit-escape-competition): Program a BB-8 robot lost in a sand desert to climb out of a pit as quickly as possible.
 
+### Data Generation Pipelines
+
+- [AUTH synthetic data generator for active perception tasks](https://github.com/opendr-eu/Synthetic_Dataset_Generator)
+  
+This is a  synthetic image generation pipeline specifically designed to support active vision tasks. The pipeline is developed using a  realistic simulation framework based on Unity and  allows for the generation of  images depicting humans, captured  at varying view angles, distances, illumination conditions, and backgrounds. The generated data are accompanied by ground truth 2D/3D bounding boxes, joints key points and semantic segmentation maps.
+
+ 
