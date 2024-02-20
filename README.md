@@ -103,6 +103,7 @@ The following simulation-based competition scenarios allows researchers to easil
 - [Highway driving competition](https://github.com/cyberbotics/highway-driving-competition/): Program a Lincoln MKZ autonomous car to drive as fast as possible on a crowded highway.
 - [Pick and place competition](https://github.com/cyberbotics/pick-and-place-competition): Program a youBot mobile manipulator robot to pick and place a cube as quickly as possible.
 - [Pit escape competition](https://github.com/cyberbotics/pit-escape-competition): Program a BB-8 robot lost in a sand desert to climb out of a pit as quickly as possible.
+- [UAV depth planning environment](https://github.com/opendr-eu/opendr/tree/master/src/opendr/planning/end_to_end_planning/envs/webots/worlds): Program a quadrotor to avoid randomized obstacles using depth images.
 
 ### Data Generation Pipelines
 
